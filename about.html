@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <style>
+@import url('https://fonts.googleapis.com/css2?family=Secular+One&display=swap');
+      .img {
+        width: 300px;
+        position: absolute;
+        margin-bottom: 24px;
+        border-radius: 50px;
+        /*! left: 50%; */
+        transform: rotate(45deg);
+        animation: fly 5s linear alternate-reverse;
+        top: 0;
+        z-index: -1;
+      }
+      @keyframes fly {
+        0% {
+		transform: rotate(45deg) translate(0, 0);
+	}
+
+	100% {
+		transform: translate(50vh, 100vw);
+	}
+
+}
+    
+    </style>
+    <title>ABOUT</title>
+  </head>
+  <body
+    style="
+      background-image: url(https://wallpaper-mania.com/wp-content/uploads/2018/09/High_resolution_wallpaper_background_ID_77700363293.jpg);
+      background-size: cover;
+    "
+  >
+    <h1
+      style="
+    font-family: 'Secular One', sans-serif;        margin-top: 20px;
+        text-align: center;
+        font-size: 56px;
+        color: black;
+        letter-spacing: 3px;
+        text-decoration: underline;
+        background-color: rgba(31, 62, 88, 0.425);
+        border-radius: 2rem;
+      "
+    >
+      ABOUT
+    </h1>
+    <div>
+      <header style="color: black; text-align: center">
+        <p style="font-size: 32px">
+          <b>Extraspace Cloud</b>: A cloud where you can create folders, upload
+          files and links and can access it from anywhere...
+        </p>
+      </header>
+    </div>
+    <div style="margin-top: 40px">
+      <main>
+        <pre style="text-align: left; color: black; font-size: 18px">
+  The code repository of the application can be accessed on GitHub through the link: 
+  <br>
+  <div style="text-align: center;">
+  <button style="color:white; font-size:2rem; border-radius:1rem; border: none; padding:8px 16px; outline: none; text-align: center; background-color:black"><img style="width:36px; height:36px;" src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAARMAAAC3CAMAAAAGjUrGAAAAe1BMVEUAAAD///9gYGD8/Pzg4ODj4+Ps7Oz5+fnv7++oqKi3t7f19fXd3d2srKx5eXlOTk5ra2u+vr6YmJg6OjotLS1nZ2fW1tZwcHChoaHCwsLS0tJEREQoKCiLi4szMzPKyspYWFgSEhKTk5MhISFDQ0N+fn4LCwsjIyMXFxekLj9YAAAK5UlEQVR4nO1d62KqOBA+FRXECxbvd7Rqff8n3LWnOpOQCSEkJOzy/ayUJEPmPpn8+dOiRYsWLVq0aNGiRYsWLSxgv5teBvFm2e33o95oeYoH6SQ5up6VK5w7h/Ey+hAi6sXp9P9GmUncE1ODoczmMHM90ZpwTbvF9HjTJe64nq91JGOCXWiEm9Xd9bTt4euiwDFCsoyvruduB9km0KPID0Y31/M3j+moAkF+MLy4XoNZrPpVKfKD9Ox6IcYwVaFIoMJZYep6LWaQLCWE6G3jdNJJZsf599f+OLtmq8Pg1B3S/xFNXK+nOs4xtbrueJJ8i//pPlukW2rfLJN6V2AcE/HK+vG0+H+TlNhhY/vztof5SbSk0VrZZL/fTiKiRs01bm+C9USDkj7M+SbS4k3dKp8CWbDSeVES54nba6J7eM07Npud7svOaZh7W/MM20meItW+bJrbK03jnzG/gFN1L27Nv3P0ZWCmtWHLc78RRbHfcK+NmhOLO/OawphF3uG8hKAp9ts3J12XJr/mgCP3wuC77WHOeSuGXfyEo7iWdq8ZR5YkPfMRMs6D8l8n71mSbGyMcWvWTtmzO9tSaCxhRa3nMqWmyZ7ZdIjX2odx7oc2XRLG4w73FkeqCGaifbtZGUbSRg+rY1VAiqfZsx1PZtyHpeXBdLHAk+zaz90x5pufDuEcO679OrIOzE7xUiNjVRDVk4hhZIqHchZ/tICIxxsHFurdmsZURwd/sqy2YXFSflDbqIrAJn2NrH2OnHwKJWDOrlUFZGjgXp0DFwLPrGZT4YCGXtc7tBzIzQnrLirCAUmPEhwXNC1R0nP8EQ63g6zKELvLKQoDkW55IFG2rTKEUXyh5EsseuD392iT6Q0wH7z0i+gFmHG9CRsgATsU/Y70dE+jVCJBVohQfqPx++VfbwXXou/EOCb9Q7m3Z0xeRKxaEPeUfLstoM8oDjVyqY0+T7jHLOssptNpp7PjDeA5n9IRDrCC36Pq6zGAGZrxXPTA/YPH6Te78dhN15tuiJzHIOyfxrfk5bukuX8V162gveTFRkFfUpzbSnILez55ng6W+cT4izS9z9vxTyaogxObIIh9hRKtZuxhOsS+veVX9i8DUeQoeIRIBCAP1IPcBhL6xLbNM0AFEFYy+jLuVc8XTIbatXw6sxJGxCBooyiUytkFcjco6Zaru6gC0s+DR06WlqoMCGCQwq0emiAeriuiRQDpFDLnl6ulqQKKd/7M4RnH7jHU8QVk0dBFsDRt0F4emI6O7Tawqj/JZ6YmaSL0MflhMvMLVcdKZR77/Mr0ITFTIQxJE64GgGCTxf3MHFT5C0nNE8gtpyYKsI6sZI08hlAestUix8thoQGK5sgyTkLjXg9S2wOybg41D1ioMtbZmSOJ3O0F5nGY/wKDTfJhzibFiVSnIOK7M9tgDhIGFhxFqAKZRAHN4+w0GGjigH7IqHXyhCSlFqs8ZBfgyEhEn+RsnyboPQkHH5ylBKF6jZZ8Rg37v6DNexTltLFeFUDokP50ZHixAujRQJxn5perAvBEQ/IZ49LkCdp0B3nuKAIJqSwVZ9UkyOEgwuWoGAXirOSHO1shCa1poczQUSEkaD4ynJQ/AWcEZFwCXB5HbiCk98jMtUHvD4NeMGh+N31kQMiT51EqN/ggQJruMCcnx+IebzUbUmHHhw1N/AR5vHBb/IhNHN/Dk1t5JlqPCZA24rj4EZuAkD1pSHdE6zEBUtNCuMBJpxRYMKn3VqL1mACp/MGVcGKggJ4lD7hZUsUSZTwpfsQmwGYkHfP6aQJGm5MMKZix9dOE5B0Vf8MiQJyRrFu/PFEQcjYBNCGDsfXrHcgkOAlTK+wTUdWWEZAOlv80mYvWYwKkY+yYd8AUIGVs/bY90MSJ3gFdTMe9NPuAFoJ08ECqO6GJyvB8bxhDoGOdKh/KIkCc0axrtLwPQMtPMJqc2PZQp0snU+qOsyG/2IkPCEqFrpX6tkMTOii/UXjGIu7vOF8gLLP/gR0hS/fbgsBeZn7FCoA4H52EMloH+oIk8QlZdDdHsCE1SmfxrViydGEHlM7RqskqlOSZ+RT6xwfdIlEh9mcXYMhKuiZZ0MYSTwaqxBydllT6KBY0j6TeBrauo4o2dCRDkmAynvaSZfhA7bg6xQOyQnKEdV+l078Ism4I8JSralDwZmQ71eiRJnkMANWmml6rKiCCQp6WeMKs3SbLeSpOyCZQaFH22NEk90gLGkGcuOuFAlOVtjwxWKwkjQAgoe/u/BtYsvK+jgfB6rQgHwbVsJtcZTmA+Cw41WuIKAW5PSgUc9jfAhVzZ/InjWR6CoTEHaK/Lg+jg0opSs8eK2ufoEhGoACWy94wYEsXt8ep6PmcCp1/kG5OGyshbVxsTM8qFIYqND5HBUBuD45CXEnFSrrynTsUMVJRrWgfur0RDU2E8TAuo2G0TPNOxyMtXfbXj9WWCN6X445+aMNiKfuynkT3B80vW+VAU9AdqN6xgYwT150tUFYLR6rfnocwBHdPDp+jodzkD3untFPi8gfgYkdhRwBSgIzd/bbS6CTh144UulFCpwLEQAaQk6otBogPmAbIu5fgoIkiMeRKrwuZP9o32hgDCo9wDtpY/Oc3pNWzJbvAo+3qQxtmtBAutvFSSoQmlSfYyzEPOpvqQ9s6pI55Nvk9YiSOoBYUdpWqC0An7LxoDopbjfHf6JfLhUU7BfZbmf5Z30iF+bBNmPwnvyNeIkPEPUXRtxJhIUReTzow4wot3tN42Sl5260weqDOPJgL/dgm7HlZXhGScy3M+6gLBi+bpSLjgOeet0HLB4SK/R7V0TF1/Wmqi/mAk6cPoBYKfh1ThRCT4kktPLjTBjkcsKnBRTqwetmmk0VnctmodbrIlIbGDX0lbRPqxwMthata0u9+onZ6DW84v+6HwIF5Th1q9/pQogkWJs4b+HHAtxGxXL3XLaZWoQn+FmFZX9o2jng1rJWiezpDgSbMq/27FZwphWUjXZrJnWKaMLLKJ53zAiM3WGnX0cqiF9JkhrnSj0bUPBiTg7Vbv3UK74towt7O6I+1hsFWJHHGfIe4712fJixJ/BMmf8Fc6JXzcHZrdJNTpKCh5TSZM+rMz+u8nmCbJwk+3W4xOdwmnaejWJEmCbMpfbNMMNicsPRoRDWasGU+ziq1lMAGz2TqsRJN2HqWmm5U0wabslnS9ztWoQkrjIbeX4vOat2QrFPVp8k3G2cY+mbSC8CZIlTdgzZNbqwBaPWmV2PgMp4jcWxIkyZ3LtwfNWCXPMFnKYQ5PT2aTDknu98QkuRPd3UFUkWHJkc+6e63EmaR63wZ59SlBk1ylwf4bKrlsch5wnzcvjRNDrlKHq+uA1TAPBeYD9bMXilJk0PE/1xYG+oh8vngYAAq6FxME/CXHnmKfPScNKWrClEL99Pr4ypUy74KSZJYENH1MaqmgqMo1xf9bBalu1Z+1n3pCn4JfUkLa0B89mCoXPcY5XnmTazG4stCt4++k1aOJrEy2/L/I3DSsMI0UpNn3zYeXgWvg7OxM8ZbhxemGIeR/hZbt2cLjOO+rtrN4bMRgZKSuJVP8bzRTxtptirgOtbaLMGp8dpXikVcVjefbp6H5U3gulY+19SPG2zEl8R9MVgWsFHQiyeNCSyawn3WST9Hw5zPGwx7m8Hq6n3SxiIe12x6u6zH4/FgfTmsst1/xFBt0aJFixYtWrRo0aKFc/wDL9OCYKnRNGgAAAAASUVORK5CYII=" alt="Github"/><span style="padding-left:8px;"><a href="https://github.com/srivastavaritik/extraspace-cloud" target="_blank" style="text-align:center; color:aliceblue; text-decoration:none;">GitHub</a></span></button>
+ </div>
+
+  Although there are many such applications available on the internet, this application is quite unique when it comes to its features
+  and use-cases.
+
+  <i>Users can create their account here and start uploading their files, folders and links.</i>
+ 
+  <b>Data security</b> is necessary and is a right of all internet users. Keeping that in mind we are now working on making our application
+  decentralized with the help of <b>blockchain</b>.
+
+  After the implementation of blockchain in our application:
+           <li style="margin-left:22px;">The users can use it with the help of their MetaMask wallet.</li><li style="margin-left:22px;">Users will be able to track and store their crypto transaction directly through our application which will guarantee privacy and
+   data security to all its users in a real sense.</li><li style="margin-left:22px;">Since the application will be decentralized, there is no chance of data breach or privacy/security issues.</li>
+               
+  <b style="text-decoration:underline; font-size:22px;">The main theme of our application is Data security.</b>
+            </pre>
+      </main>
+    </div>
+    <div>
+      <img
+        class="img"
+        src="https://www.freepnglogos.com/uploads/rocket-png/rocket-cartoon-transparent-png-svg-vector-19.png"
+        alt="Rocket-Vector"
+      />
+    </div>
+  </body>
+</html>
